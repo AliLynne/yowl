@@ -37,9 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Flickr style pagination from http://mislav.github.io/will_paginate/ */
 
 .pagination {
-  text-align: left;
+  text-align: center;
   padding: 0.3em;
   cursor: default;
+  margin-top: 10px;
 }
 
 .pagination a, .pagination span, .pagination em {
@@ -58,13 +59,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .pagination a {
 
-    color: #0063dc;
+    color: #66DAFA;
     text-decoration: none;
 }
 
 .pagination a:hover, .pagination a:focus {
-      border-color: #003366;
-      background: #0063dc;
+      background: #66DAFA;
       color: white;
   }
 
